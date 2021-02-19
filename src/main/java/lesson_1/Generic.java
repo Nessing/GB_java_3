@@ -27,8 +27,8 @@ public class Generic<T> {
 
     // № 2
     public ArrayList<T> refactorArray(T[] a) {
-        List<T> list = new ArrayList<>();
+        ArrayList<T> list = new ArrayList<>();
         list.addAll(Arrays.asList(a));
-        return (ArrayList<T>) list;
+        return list;
     }
 }

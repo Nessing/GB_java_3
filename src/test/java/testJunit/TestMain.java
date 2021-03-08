@@ -51,7 +51,7 @@ public class TestMain {
         Assertions.assertArrayEquals(result, actualArr);
     }
 
-    // тест на возвращение true если в массиве есть хоть одна четверка или единица
+    // тест на возвращение true если массив состоит из четверок и единиц
     @ParameterizedTest
     @MethodSource("dataForTestContainsOneOrFourTrue")
     public void massTestContainsOneOrFourTrue(int[] arr) {
@@ -60,14 +60,14 @@ public class TestMain {
 
     public static Stream<Arguments> dataForTestContainsOneOrFourTrue() {
         List<Arguments> out = new ArrayList<>();
-        out.add(Arguments.arguments(new int[] {1, 2, 3, 5, 6, 7}));
-        out.add(Arguments.arguments(new int[] {2, 2, 4, 8, 6, 7}));
-        out.add(Arguments.arguments(new int[] {2, 2, 1, 8, 4, 3}));
-        out.add(Arguments.arguments(new int[] {4, 2, 1, 8, 4, 3}));
+        out.add(Arguments.arguments(new int[] {1, 1, 1, 4, 4, 4}));
+        out.add(Arguments.arguments(new int[] {4, 4, 1, 1, 4, 4}));
+        out.add(Arguments.arguments(new int[] {4, 1, 1, 1, 1, 1}));
+        out.add(Arguments.arguments(new int[] {4, 4, 4, 1, 4, 4}));
         return out.stream();
     }
 
-    // тест на возвращение false если в массиве есть хоть одна четверка или единица
+    // тест на возвращение false если в массиве нет хоть одной четверки и единицы
     @ParameterizedTest
     @MethodSource("dataForTestContainsOneOrFourFalse")
     public void massTestContainsOneOrFourFalse(int[] arr) {
@@ -76,10 +76,56 @@ public class TestMain {
 
     public static Stream<Arguments> dataForTestContainsOneOrFourFalse() {
         List<Arguments> out = new ArrayList<>();
-        out.add(Arguments.arguments(new int[] {7, 2, 3, 5, 6, 7}));
-        out.add(Arguments.arguments(new int[] {2, 2, 9, 8, 6, 7}));
-        out.add(Arguments.arguments(new int[] {2, 2, 5, 8, 9, 3}));
-        out.add(Arguments.arguments(new int[] {2, 2, 0, 8, 6, 3}));
+        out.add(Arguments.arguments(new int[] {1, 1, 1, 1, 1, 1}));
+        out.add(Arguments.arguments(new int[] {4, 4, 4, 4, 4, 4}));
+        out.add(Arguments.arguments(new int[] {4, 4, 4, 2, 9, 3}));
+        out.add(Arguments.arguments(new int[] {1, 1, 1, 8, 6, 3}));
         return out.stream();
     }
+
+    @Test
+    public void testSearchFourTeacher_1() {
+        int[] arr = {4, 2, 3, 2, 5, 6};
+        int[] result = {2, 3, 2, 5, 6};
+        int[] actualArr = main.searchFour(arr);
+        Assertions.assertArrayEquals(result, actualArr);
+    }
+
+    @Test
+    public void testSearchFourTeacher_2() {
+        int[] arr = {1, 2, 4, 4, 2, 3, 4, 1, 7};
+        int[] result = {1, 7};
+        int[] actualArr = main.searchFour(arr);
+        Assertions.assertArrayEquals(result, actualArr);
+    }
+
+    @Test
+    public void testSearchFourTeacher_3() {
+        int[] arr = {1, 2, 4, 4, 2, 3, 4, 1, 4};
+        int[] result = {};
+        int[] actualArr = main.searchFour(arr);
+        Assertions.assertArrayEquals(result, actualArr);
+    }
+
+    @Test
+    public void testSearchFourTeacher_4() {
+        int[] arr = {5, 7, 4, 2, 7, 9, 6};
+        int[] result = {2, 7, 9, 6};
+        int[] actualArr = main.searchFour(arr);
+        Assertions.assertArrayEquals(result, actualArr);
+    }
+
+    /*
+
+    метод expected нельзя использовать и при добавлении библиотеки в ручную (org.junit.Assert) не дает результатов.
+    Из-за чего это может быть?
+
+    @Test(expected = RuntimeException.class)
+    public void testSearchFourTeacher_5_exception() {
+        int[] arr = {5, 7, 1, 2, 7, 9, 6};
+        int[] result = {};
+        int[] actualArr = main.searchFour(arr);
+    }
+
+     */
 }

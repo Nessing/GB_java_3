@@ -31,13 +31,21 @@ public class Main {
         return array;
     }
 
+    //!!! этот метод подсмотрел у Вас, простой и понятный, понравился, решил попробовать
+    public int[] searchFourTeacher(int[] arr) {
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i] == 4) return Arrays.copyOfRange(arr, i + 1, arr.length);
+        }
+        throw new RuntimeException();
+    }
+
     // метод возвращает true если в переданном массиве есть хоть одна четверка или единица
     public boolean containsOneOrFour(int[] arr) {
         List<Integer> list = new ArrayList<>();
         for (int a : arr) {
             list.add(a);
         }
-        if (list.contains(1) || list.contains(4)) return true;
+        if (list.contains(1) && list.contains(4)) return true;
         return false;
     }
 }

@@ -1,0 +1,190 @@
+INFO  2021-03-07 14:42:24 server.Server (Server.java:22) - Server was started and up
+INFO  2021-03-07 14:42:46 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 14:42:46 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 14:42:46 server.ClientHandler (ClientHandler.java:121) - Client started
+WARN  2021-03-07 14:43:03 server.ClientHandler (ClientHandler.java:54) - Client: [Fox] write password [756]
+WARN  2021-03-07 14:43:05 server.ClientHandler (ClientHandler.java:69) - Client: [/enter Fox 756] wrote wrong name or password
+WARN  2021-03-07 14:43:11 server.ClientHandler (ClientHandler.java:54) - Client: [Fox] write password [123]
+INFO  2021-03-07 14:43:11 server.ClientHandler (ClientHandler.java:64) - Client: [/enter Fox 123] is enter chat
+TRACE 2021-03-07 14:43:11 server.Server (Server.java:60) - === Fox вошел в чат ===
+INFO  2021-03-07 14:43:11 server.ClientHandler (ClientHandler.java:173) - client identified nick: Fox
+TRACE 2021-03-07 14:43:26 server.Server (Server.java:60) - Fox: Привет всем!
+TRACE 2021-03-07 14:43:31 server.Server (Server.java:60) - Fox: Это проверка тестов
+TRACE 2021-03-07 14:43:37 server.Server (Server.java:60) - Fox: тестов Junit
+TRACE 2021-03-07 14:44:40 server.Server (Server.java:60) - Fox: ухожу с сервера
+TRACE 2021-03-07 14:44:42 server.Server (Server.java:60) - Fox: /exit
+ERROR 2021-03-07 14:44:42 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 14:44:42 server.Server (Server.java:60) - === Fox покинул чат ===
+ERROR 2021-03-07 14:44:42 server.ClientHandler (ClientHandler.java:157) - client lose server
+INFO  2021-03-07 14:44:42 server.Server (Server.java:46) - [REMOVE] Client removed from queue
+INFO  2021-03-07 14:47:47 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 14:47:47 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 14:47:47 server.ClientHandler (ClientHandler.java:121) - Client started
+WARN  2021-03-07 14:47:53 server.ClientHandler (ClientHandler.java:54) - Client: [Fox] write password [123]
+INFO  2021-03-07 14:47:53 server.ClientHandler (ClientHandler.java:64) - Client: [/enter Fox 123] is enter chat
+TRACE 2021-03-07 14:47:53 server.Server (Server.java:60) - === Fox вошел в чат ===
+INFO  2021-03-07 14:47:53 server.ClientHandler (ClientHandler.java:173) - client identified nick: Fox
+TRACE 2021-03-07 14:48:01 server.Server (Server.java:60) - Fox: /exit
+ERROR 2021-03-07 14:48:01 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 14:48:01 server.Server (Server.java:60) - === Fox покинул чат ===
+ERROR 2021-03-07 14:48:01 server.ClientHandler (ClientHandler.java:157) - client lose server
+INFO  2021-03-07 14:48:01 server.Server (Server.java:46) - [REMOVE] Client removed from queue
+INFO  2021-03-07 14:50:27 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 14:50:27 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 14:50:27 server.ClientHandler (ClientHandler.java:121) - Client started
+WARN  2021-03-07 14:50:35 server.ClientHandler (ClientHandler.java:54) - Client: [Fox] write password [123]
+INFO  2021-03-07 14:50:35 server.ClientHandler (ClientHandler.java:64) - Client: [/enter Fox 123] is enter chat
+TRACE 2021-03-07 14:50:35 server.Server (Server.java:60) - === Fox вошел в чат ===
+INFO  2021-03-07 14:50:35 server.ClientHandler (ClientHandler.java:173) - client identified nick: Fox
+TRACE 2021-03-07 14:50:37 server.Server (Server.java:60) - Fox: /exit
+ERROR 2021-03-07 14:50:37 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 14:50:37 server.Server (Server.java:60) - === Fox покинул чат ===
+ERROR 2021-03-07 14:50:37 server.ClientHandler (ClientHandler.java:157) - client lose server
+INFO  2021-03-07 14:50:37 server.Server (Server.java:46) - [REMOVE] Client removed from queue
+INFO  2021-03-07 14:51:24 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 14:51:24 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 14:51:24 server.ClientHandler (ClientHandler.java:121) - Client started
+WARN  2021-03-07 14:51:31 server.ClientHandler (ClientHandler.java:54) - Client: [Fox] write password [123]
+INFO  2021-03-07 14:51:31 server.ClientHandler (ClientHandler.java:64) - Client: [/enter Fox 123] is enter chat
+TRACE 2021-03-07 14:51:31 server.Server (Server.java:60) - === Fox вошел в чат ===
+INFO  2021-03-07 14:51:31 server.ClientHandler (ClientHandler.java:173) - client identified nick: Fox
+TRACE 2021-03-07 14:51:33 server.Server (Server.java:60) - Fox: /exit
+ERROR 2021-03-07 14:51:33 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 14:51:33 server.Server (Server.java:60) - === Fox покинул чат ===
+ERROR 2021-03-07 14:51:33 server.ClientHandler (ClientHandler.java:157) - client lose server
+INFO  2021-03-07 14:51:33 server.Server (Server.java:46) - [REMOVE] Client removed from queue
+INFO  2021-03-07 14:52:03 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 14:52:03 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 14:52:03 server.ClientHandler (ClientHandler.java:121) - Client started
+ERROR 2021-03-07 14:52:08 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 14:52:08 server.Server (Server.java:60) - === null покинул чат ===
+INFO  2021-03-07 14:52:08 server.Server (Server.java:46) - [REMOVE] Client removed from queue
+INFO  2021-03-07 14:52:20 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 14:52:20 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 14:52:20 server.ClientHandler (ClientHandler.java:121) - Client started
+WARN  2021-03-07 14:52:25 server.ClientHandler (ClientHandler.java:54) - Client: [Fox] write password [123]
+INFO  2021-03-07 14:52:25 server.ClientHandler (ClientHandler.java:64) - Client: [/enter Fox 123] is enter chat
+TRACE 2021-03-07 14:52:25 server.Server (Server.java:60) - === Fox вошел в чат ===
+INFO  2021-03-07 14:52:25 server.ClientHandler (ClientHandler.java:173) - client identified nick: Fox
+TRACE 2021-03-07 14:52:28 server.Server (Server.java:60) - Fox: привет 
+TRACE 2021-03-07 14:52:28 server.Server (Server.java:60) - Fox: всем
+TRACE 2021-03-07 14:52:30 server.Server (Server.java:60) - Fox: я тут
+TRACE 2021-03-07 14:52:33 server.Server (Server.java:60) - Fox: /save
+TRACE 2021-03-07 14:53:35 server.Server (Server.java:60) - Fox: /exit
+ERROR 2021-03-07 14:53:35 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 14:53:35 server.Server (Server.java:60) - === Fox покинул чат ===
+ERROR 2021-03-07 14:53:35 server.ClientHandler (ClientHandler.java:157) - client lose server
+INFO  2021-03-07 14:53:35 server.Server (Server.java:46) - [REMOVE] Client removed from queue
+INFO  2021-03-07 14:53:43 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 14:53:43 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 14:53:43 server.ClientHandler (ClientHandler.java:121) - Client started
+WARN  2021-03-07 14:53:48 server.ClientHandler (ClientHandler.java:54) - Client: [Fox] write password [123]
+INFO  2021-03-07 14:53:48 server.ClientHandler (ClientHandler.java:64) - Client: [/enter Fox 123] is enter chat
+TRACE 2021-03-07 14:53:48 server.Server (Server.java:60) - === Fox вошел в чат ===
+INFO  2021-03-07 14:53:48 server.ClientHandler (ClientHandler.java:173) - client identified nick: Fox
+TRACE 2021-03-07 14:53:51 server.Server (Server.java:60) - Fox: привет
+TRACE 2021-03-07 14:53:52 server.Server (Server.java:60) - Fox: это я
+TRACE 2021-03-07 14:53:54 server.Server (Server.java:60) - Fox: /save
+ERROR 2021-03-07 14:54:59 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 14:54:59 server.Server (Server.java:60) - === Fox покинул чат ===
+ERROR 2021-03-07 14:54:59 server.ClientHandler (ClientHandler.java:157) - client lose server
+INFO  2021-03-07 14:54:59 server.Server (Server.java:46) - [REMOVE] Client removed from queue
+INFO  2021-03-07 14:55:03 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 14:55:03 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 14:55:03 server.ClientHandler (ClientHandler.java:121) - Client started
+WARN  2021-03-07 14:55:10 server.ClientHandler (ClientHandler.java:54) - Client: [Fox] write password [123]
+INFO  2021-03-07 14:55:10 server.ClientHandler (ClientHandler.java:64) - Client: [/enter Fox 123] is enter chat
+TRACE 2021-03-07 14:55:10 server.Server (Server.java:60) - === Fox вошел в чат ===
+INFO  2021-03-07 14:55:10 server.ClientHandler (ClientHandler.java:173) - client identified nick: Fox
+TRACE 2021-03-07 14:55:12 server.Server (Server.java:60) - Fox: привет
+TRACE 2021-03-07 14:55:13 server.Server (Server.java:60) - Fox: это я
+TRACE 2021-03-07 14:55:15 server.Server (Server.java:60) - Fox: /save
+TRACE 2021-03-07 14:55:17 server.Server (Server.java:60) - Fox: /exit
+ERROR 2021-03-07 14:55:17 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 14:55:17 server.Server (Server.java:60) - === Fox покинул чат ===
+ERROR 2021-03-07 14:55:17 server.ClientHandler (ClientHandler.java:157) - client lose server
+INFO  2021-03-07 14:55:17 server.Server (Server.java:46) - [REMOVE] Client removed from queue
+INFO  2021-03-07 14:57:33 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 14:57:33 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 14:57:33 server.ClientHandler (ClientHandler.java:121) - Client started
+WARN  2021-03-07 14:57:41 server.ClientHandler (ClientHandler.java:54) - Client: [Fox] write password [123]
+INFO  2021-03-07 14:57:41 server.ClientHandler (ClientHandler.java:64) - Client: [/enter Fox 123] is enter chat
+TRACE 2021-03-07 14:57:41 server.Server (Server.java:60) - === Fox вошел в чат ===
+INFO  2021-03-07 14:57:41 server.ClientHandler (ClientHandler.java:173) - client identified nick: Fox
+TRACE 2021-03-07 14:57:43 server.Server (Server.java:60) - Fox: привет
+TRACE 2021-03-07 14:57:44 server.Server (Server.java:60) - Fox: это я
+TRACE 2021-03-07 14:57:46 server.Server (Server.java:60) - Fox: как дела?
+TRACE 2021-03-07 14:57:48 server.Server (Server.java:60) - Fox: /save
+TRACE 2021-03-07 14:57:52 server.Server (Server.java:60) - Fox: /exit
+ERROR 2021-03-07 14:57:52 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 14:57:52 server.Server (Server.java:60) - === Fox покинул чат ===
+ERROR 2021-03-07 14:57:52 server.ClientHandler (ClientHandler.java:157) - client lose server
+INFO  2021-03-07 14:57:52 server.Server (Server.java:46) - [REMOVE] Client removed from queue
+INFO  2021-03-07 14:58:31 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 14:58:31 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 14:58:31 server.ClientHandler (ClientHandler.java:121) - Client started
+WARN  2021-03-07 14:58:36 server.ClientHandler (ClientHandler.java:54) - Client: [Fox] write password [123]
+INFO  2021-03-07 14:58:36 server.ClientHandler (ClientHandler.java:64) - Client: [/enter Fox 123] is enter chat
+TRACE 2021-03-07 14:58:36 server.Server (Server.java:60) - === Fox вошел в чат ===
+INFO  2021-03-07 14:58:36 server.ClientHandler (ClientHandler.java:173) - client identified nick: Fox
+TRACE 2021-03-07 14:58:39 server.Server (Server.java:60) - Fox: привет
+TRACE 2021-03-07 14:58:40 server.Server (Server.java:60) - Fox: это я
+TRACE 2021-03-07 14:58:41 server.Server (Server.java:60) - Fox: пока
+TRACE 2021-03-07 14:58:42 server.Server (Server.java:60) - Fox: /save
+TRACE 2021-03-07 14:58:45 server.Server (Server.java:60) - Fox: /exit
+ERROR 2021-03-07 14:58:45 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 14:58:45 server.Server (Server.java:60) - === Fox покинул чат ===
+ERROR 2021-03-07 14:58:45 server.ClientHandler (ClientHandler.java:157) - client lose server
+INFO  2021-03-07 14:58:45 server.Server (Server.java:46) - [REMOVE] Client removed from queue
+INFO  2021-03-07 14:59:56 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 14:59:56 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 14:59:56 server.ClientHandler (ClientHandler.java:121) - Client started
+WARN  2021-03-07 15:00:00 server.ClientHandler (ClientHandler.java:54) - Client: [Fox] write password [123]
+INFO  2021-03-07 15:00:00 server.ClientHandler (ClientHandler.java:64) - Client: [/enter Fox 123] is enter chat
+TRACE 2021-03-07 15:00:00 server.Server (Server.java:60) - === Fox вошел в чат ===
+INFO  2021-03-07 15:00:00 server.ClientHandler (ClientHandler.java:173) - client identified nick: Fox
+TRACE 2021-03-07 15:00:02 server.Server (Server.java:60) - Fox: привет
+TRACE 2021-03-07 15:00:03 server.Server (Server.java:60) - Fox: это я
+TRACE 2021-03-07 15:00:05 server.Server (Server.java:60) - Fox: как дела?
+TRACE 2021-03-07 15:00:08 server.Server (Server.java:60) - Fox: /save
+TRACE 2021-03-07 15:00:10 server.Server (Server.java:60) - Fox: /exit
+ERROR 2021-03-07 15:00:10 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 15:00:10 server.Server (Server.java:60) - === Fox покинул чат ===
+ERROR 2021-03-07 15:00:10 server.ClientHandler (ClientHandler.java:157) - client lose server
+INFO  2021-03-07 15:00:10 server.Server (Server.java:46) - [REMOVE] Client removed from queue
+INFO  2021-03-07 15:00:16 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 15:00:16 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 15:00:16 server.ClientHandler (ClientHandler.java:121) - Client started
+WARN  2021-03-07 15:00:20 server.ClientHandler (ClientHandler.java:54) - Client: [Fox] write password [123]
+INFO  2021-03-07 15:00:20 server.ClientHandler (ClientHandler.java:64) - Client: [/enter Fox 123] is enter chat
+TRACE 2021-03-07 15:00:20 server.Server (Server.java:60) - === Fox вошел в чат ===
+INFO  2021-03-07 15:00:20 server.ClientHandler (ClientHandler.java:173) - client identified nick: Fox
+INFO  2021-03-07 15:01:21 server.Server (Server.java:25) - Client connected
+INFO  2021-03-07 15:01:21 server.Server (Server.java:41) - [ADD] Client added to queue
+INFO  2021-03-07 15:01:21 server.ClientHandler (ClientHandler.java:121) - Client started
+WARN  2021-03-07 15:01:29 server.ClientHandler (ClientHandler.java:54) - Client: [Fred] write password [123]
+INFO  2021-03-07 15:01:29 server.ClientHandler (ClientHandler.java:64) - Client: [/enter Fred 123] is enter chat
+TRACE 2021-03-07 15:01:29 server.Server (Server.java:60) - === Fred вошел в чат ===
+INFO  2021-03-07 15:01:29 server.ClientHandler (ClientHandler.java:173) - client identified nick: Fred
+TRACE 2021-03-07 15:01:32 server.Server (Server.java:60) - Fred: Привет всем!
+TRACE 2021-03-07 15:01:34 server.Server (Server.java:60) - Fred: Как дела?
+TRACE 2021-03-07 15:01:42 server.Server (Server.java:60) - Fox: Все отлично Фред!)
+TRACE 2021-03-07 15:01:49 server.Server (Server.java:60) - Fox: ладно
+TRACE 2021-03-07 15:01:55 server.Server (Server.java:60) - Fox: я пожалуй закончу этот чат
+TRACE 2021-03-07 15:01:57 server.Server (Server.java:60) - Fox: пока
+TRACE 2021-03-07 15:01:59 server.Server (Server.java:60) - Fox: Фред
+TRACE 2021-03-07 15:01:59 server.Server (Server.java:60) - Fox: и
+TRACE 2021-03-07 15:02:03 server.Server (Server.java:60) - Fox: Сам чат!
+TRACE 2021-03-07 15:02:07 server.Server (Server.java:60) - Fred: Пока Фокс!
+TRACE 2021-03-07 15:02:12 server.Server (Server.java:60) - Fred: А я еще посижу тут
+TRACE 2021-03-07 15:02:18 server.Server (Server.java:60) - Fox: /exit
+ERROR 2021-03-07 15:02:18 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 15:02:18 server.Server (Server.java:60) - === Fox покинул чат ===
+ERROR 2021-03-07 15:02:18 server.ClientHandler (ClientHandler.java:157) - client lose server
+INFO  2021-03-07 15:02:18 server.Server (Server.java:46) - [REMOVE] Client removed from queue
+TRACE 2021-03-07 15:02:34 server.Server (Server.java:60) - Fred: ну и я пойду
+TRACE 2021-03-07 15:02:35 server.Server (Server.java:60) - Fred: /exit
+ERROR 2021-03-07 15:02:35 server.ClientHandler (ClientHandler.java:153) - Handler disconnected
+TRACE 2021-03-07 15:02:35 server.Server (Server.java:60) - === Fred покинул чат ===
+ERROR 2021-03-07 15:02:35 server.ClientHandler (ClientHandler.java:157) - client lose server
+INFO  2021-03-07 15:02:35 server.Server (Server.java:46) - [REMOVE] Client removed from queue
